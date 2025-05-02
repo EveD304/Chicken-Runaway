@@ -6,11 +6,13 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] carPrefabs;
     private float[] spawnRangeX = { -10, 0, 10};
+    private float startDelay = 2;
+    private float spawnInterval = 1;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("SpawnRandomCar", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
