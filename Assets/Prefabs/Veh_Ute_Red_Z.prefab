@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 8272323469071436689}
   - component: {fileID: 2777571561253523946}
   - component: {fileID: 9041777495927191879}
+  - component: {fileID: 6459147415405606534}
   m_Layer: 0
   m_Name: Veh_Ute_Red_Z
   m_TagString: Untagged
@@ -231,6 +232,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &6459147415405606534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4631753286624793341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8799e4d39c8424487d56336767ee62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6221825031166628457
 GameObject:
   m_ObjectHideFlags: 0

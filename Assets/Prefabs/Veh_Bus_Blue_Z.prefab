@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8504421875502309985}
   - component: {fileID: 6560165708082216265}
   - component: {fileID: 1267932663915053362}
+  - component: {fileID: 7366551466898854386}
   m_Layer: 0
   m_Name: Veh_Bus_Blue_Z
   m_TagString: Untagged
@@ -125,6 +126,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &7366551466898854386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3494800329421388282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8799e4d39c8424487d56336767ee62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3630425543872735618
 GameObject:
   m_ObjectHideFlags: 0

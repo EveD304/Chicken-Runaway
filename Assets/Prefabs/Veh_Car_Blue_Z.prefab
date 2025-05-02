@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 2505866592228528538}
   - component: {fileID: 7963554031803894887}
   - component: {fileID: 7502836818160493261}
+  - component: {fileID: 4394634005297071489}
   m_Layer: 0
   m_Name: Veh_Car_Blue_Z
   m_TagString: Untagged
@@ -506,6 +507,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 22
+--- !u!114 &4394634005297071489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244359658291015068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8799e4d39c8424487d56336767ee62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8675355656172082683
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4093589522253635332}
   - component: {fileID: 1680923472313012152}
   - component: {fileID: 4546332666190848481}
+  - component: {fileID: 2861185475767186883}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Untagged
@@ -119,3 +120,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &2861185475767186883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6955139681486528994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8799e4d39c8424487d56336767ee62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
