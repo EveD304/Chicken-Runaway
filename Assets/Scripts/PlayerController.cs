@@ -66,6 +66,8 @@ public class PlayerController : MonoBehaviour
 
     internal void ChangeHealth(int change)
     {
+        // Check if health was lost or gained
+        // Depening on health remaining -> destroy player and game over
         if (change < 0)
         {
             if (isInvincible) { return; }
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
             if (health < 1)
             {
                 Destroy(gameObject);
+                Debug.Log("GAME OVER!!");
             }
             else
             { 

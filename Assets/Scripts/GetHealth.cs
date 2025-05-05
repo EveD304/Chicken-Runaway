@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class GetHealth : MonoBehaviour
 {
+    private void Update()
+    {
+        
+    }
     private void OnTriggerEnter(Collider other)
     {
-        PlayerController playerController = GetComponent<PlayerController>();
+        PlayerController playerController = other.GetComponent<PlayerController>();
 
         if (playerController != null)
         {

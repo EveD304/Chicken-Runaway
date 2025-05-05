@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
+    private void Update()
+    {
+        
+    }
     private void OnTriggerEnter(Collider other)
     {
-        PlayerController playerController = GetComponent<PlayerController>();
+        PlayerController playerController = other.GetComponent<PlayerController>();
 
+        //Debug.Log("got collision");
         if (playerController != null)
         {
             Debug.Log("Car hit player!");
