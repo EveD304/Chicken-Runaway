@@ -287,6 +287,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 282021863}
+    - targetCorrespondingSourceObject: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 282021867}
+    - targetCorrespondingSourceObject: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 282021866}
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!1 &282021862 stripped
 GameObject:
@@ -307,7 +313,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   speed: 25
-  projectilePrefab: {fileID: 6955139681486528994, guid: 92b05f19e3e0c304aba7ed3f3ba2fb29, type: 3}
+  health: 0
+  maxHealth: 3
+--- !u!54 &282021866
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282021862}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &282021867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282021862}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.9606647, y: 16.837004, z: 20.021975}
+  m_Center: {x: -0.03281868, y: 7.9185066, z: 1.2933996}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +746,7 @@ MonoBehaviour:
   - {fileID: 8244359658291015068, guid: a57a21bff3c46144d889aaa4e37a08ff, type: 3}
   - {fileID: 6104901456285328413, guid: f60118ae2ddaa4147a9f6a2dea18f0e4, type: 3}
   - {fileID: 3494800329421388282, guid: 0f8bdb8cf789d8a47bfd838e07303542, type: 3}
+  healthCollectible: {fileID: 6955139681486528994, guid: 92b05f19e3e0c304aba7ed3f3ba2fb29, type: 3}
 --- !u!4 &1226230230
 Transform:
   m_ObjectHideFlags: 0
